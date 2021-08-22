@@ -1,0 +1,48 @@
+{
+  "name": "umi-preset-vite",
+  "version": "0.1.0",
+  "description": "preset-vite",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "father-build --watch",
+    "build": "father-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ltaoo/umi-preset-vite"
+  },
+  "keywords": [
+    "umi",
+    "vite"
+  ],
+  "authors": [
+    "ltaoo<litaowork@aliyun.com> (https://github.com/ltaoo)"
+  ],
+  "license": "MIT",
+  "bugs": "http://github.com/ltaoo/umi-preset-vite/issues",
+  "homepage": "https://github.com/ltaoo/umi-preset-vite",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@umijs/types": "3.5.14",
+    "@umijs/utils": "3.5.14",
+    "@vitejs/plugin-react-refresh": "^1.3.6",
+    "vite": "^2.5.0",
+    "vite-plugin-import": "^0.4.0",
+    "vite-react-jsx": "^1.1.2"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@types/babel__core": "^7.1.15",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.4.13",
+    "father-build": "^1.19.8",
+    "umi-test": "^1.9.6"
+  }
+}

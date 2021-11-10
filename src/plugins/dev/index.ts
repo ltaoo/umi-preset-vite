@@ -231,6 +231,7 @@ export default (api: IApi) => {
           reactRefresh(),
           viteReactJSX(),
           fakeHtml(resolve(absTmpPath!, "index.html")),
+          // @todo 有一个css转换插件, 可以尝试替换下 https://github.com/Summer-andy/vite-plugin-transform-css-modules
           // @ts-ignore
           autoCSSModule(),
           viteReplacePlugin(

@@ -1,5 +1,5 @@
 {
-  "name": "umi-preset-vite",
+  "name": "yao-test-umi-preset-vite",
   "version": "0.1.1",
   "description": "preset-vite",
   "main": "lib/index.js",

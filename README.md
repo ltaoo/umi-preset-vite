@@ -8,10 +8,10 @@
 yarn add umi-preset-vite -D
 ```
 
-> 建议先在 `package.json scripts` 中增加 `"postinstall": "umi g tmp && umi modifyViteCSSPlugin",`，或者安装依赖后手动执行
+> 建议先在 `package.json scripts` 中增加 `"postinstall": "umi g tmp",`，或者安装依赖后手动执行
 
 ```bash
-yarn umi g tmp && yarn umi modifyViteCSSPlugin
+yarn umi g tmp
 ```
 
 增加配置项 `vite`
@@ -60,6 +60,8 @@ export default App;
 ```
 
 ### CSS Module 未生效/样式错乱
+
+> 0.2.x 版本不需要修改 `vite` 源码 `css module` 即可生效
 
 在安装依赖后，会通过 `yarn umi modifyViteCSSPlugin` 修改 `vite` 源码，大概率是该命令没有执行成功，可重新执行
 

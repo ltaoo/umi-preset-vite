@@ -1,9 +1,8 @@
 import { resolve, dirname } from "path";
-import { readFileSync } from "fs";
 
 import { IApi } from "@umijs/types";
 import { createServer, ViteDevServer } from "vite";
-import reactRefresh from "@vitejs/plugin-react-refresh";
+import reactRefresh from "@vitejs/plugin-react";
 import viteReactJSX from "vite-react-jsx";
 
 import {
